@@ -1,0 +1,90 @@
+ .submitform {
+    display: inline-block;
+
+    position: relative;
+    
+    width:580px;
+    height: 580px;
+    background-color: white;
+    box-shadow: 10px 10px grey;
+    right:-600px; 
+    
+    
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+
+
+}
+.detail_name {
+    width:400px;
+    height: 30px;
+
+}
+.detail_password {
+    width:300px;
+    height: 30px;
+
+}
+
+.detail_email {
+    width:400px;
+    height: 30px;
+}
+
+.detail_mobile {
+    width:300px;
+    height: 30px;
+}
+
+.detail_address {
+    width:450px;
+    height: 30px;
+}
+
+
+.detail_city {
+    width:400px;
+    height: 30px;
+}
+
+
+.btn {
+    position: relative;
+    top:40px;
+    left:400px;
+}
+.btn > .submit-btn {
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+
+}
+.btn > .submit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(114, 206, 114);
+    
+    height: 38px;
+    color: black;
+    
+
+}
+
+@media(max-width:1300px) {
+
+   .submitform {
+    display: block;
+     left:0px;
+     width:471px ;
+
+   }
+   .btn {
+    left:200px;
+   }
+
+}
+
+

@@ -1,0 +1,26 @@
+.about {
+    position: relative;
+    width: 92vw;
+    height: 500px;
+    /* background-color: #E0FFFF; */
+
+
+    background-color: gainsboro;
+    box-shadow: 20px 20px silver;
+    margin-top: 5px;
+
+}
+.about > .title{
+    text-align: center;
+    text-decoration: underline;
+}
+.about > p{
+    padding-left: 5px;
+}
+.about > p > span {
+    color: Grey;
+}
+.about > p > span > h4 {
+    display: inline-block;
+    color: red;
+}

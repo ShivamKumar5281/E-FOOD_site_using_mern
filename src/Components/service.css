@@ -1,0 +1,126 @@
+.service{
+    display: grid;
+    width: 100vw;
+    background-color: floralwhite;
+    grid-template-columns: auto auto auto;
+    margin-top: 5px;
+    padding-left: 58px;
+    padding-top: 50px;
+    row-gap: 40px;
+
+}
+.Our-Services {
+    text-align: center;
+    color: rgb(143, 131, 131);
+    text-decoration: underline;
+    background-color: floralwhite;
+    height: 100px;
+}
+.box {
+    width:400px;
+    height: 340px;
+    background-color: rgb(96, 188, 96);
+
+}
+.box > h4 {
+    color:floralwhite;
+    font-size: 20px;
+
+    text-align: center;
+    position: relative;
+    top:-50px;
+}
+.box > h4 > del {
+    margin-left: 20px;
+    text-decoration-color: red;
+}
+.box > button {
+    position: relative;
+    left:295px;
+    top:-76px;
+    background-color: floralwhite;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+}
+.box > button > a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+.box > button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.box > button:hover > a {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.food {
+    width: 400px;
+    height: 340px;
+    background-image: url(burger.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.food1{
+    width: 400px;
+    height: 340px;
+    background-image: url(pizza.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.foods {
+
+    width: 400px;
+    height: 340px;
+    background-image: url(rice.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+.fruit {
+    width: 400px;
+    height: 340px;
+    background-image: url(food2.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+.food4{
+    width: 400px;
+    height: 340px;
+    background-image: url(image_2.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.paneer {
+    width: 400px;
+    height: 340px;
+    background-image: url(paneer.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size:  400px 280px ;
+    
+
+}
+
+
+@media(max-width:1000px){
+    .service{
+        display: grid;
+        grid-template-columns: 200px;
+        
+    }
+}

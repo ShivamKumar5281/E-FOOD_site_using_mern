@@ -1,0 +1,185 @@
+.L{
+    display: grid;
+    width: 100vw;
+    height: 65vh;
+    
+    background-image: url(image_1.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw 65vh;
+    filter: brightness(64%);
+    
+}
+.L>.L-t{
+
+    position: absolute;
+    left:30%;
+    top:25%;
+    color: white;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+.login > .l{
+    display: inline-block;
+    background-color: #9400D3;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 10px;
+    font-size: 20px;
+    
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+
+    
+}
+.login>.l>a{
+    text-decoration: none;
+    color:white;
+}
+.login > #d1{
+    justify-items: flex-start;
+    align-self:flex-start;
+    left:40%;
+    top:30px;
+    width: 100px;
+    height: 40px;
+    
+}
+
+.login > #d2{
+    justify-items: flex-start;
+    align-self:flex-start;
+    top:30px;
+    left:42%;
+    width: 150px;
+    height: 40px;
+    
+}
+.login > .l:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+    width:160px;
+}
+.login>.l:hover > a{
+    cursor: pointer;
+
+    color: black;
+    
+    
+}
+.location {
+    display: inline-block;
+    position: absolute;
+    top:40%;
+    left:40%;
+    
+}
+
+.location > input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+}
+.location > i {
+    position: relative;
+    left:-25px;
+    
+}
+.admin_login> button {
+
+    display: inline-block;
+    background-color: #9400D3;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 10px;
+    font-size: 20px;
+    left: 435px;
+    width: 150px;
+    height: 40px;
+    top:-10px;
+    
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+  
+
+}
+
+.admin_login> #d5>a{
+    text-decoration: none;
+    color:white;
+}
+
+.admin_login > #d5:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+    width:160px;
+}
+.admin_login>#d5:hover > a{
+    cursor: pointer;
+
+    color: black;
+    
+    
+}
+
+
+
+
+
+
+
+@media(max-width:1500px){
+
+ .location {
+    top:58%;
+ }
+ .admin_login > button{
+    left:105px;
+}
+
+}
+@media(max-width:800px){
+
+    .location > input {
+       width: 350px;
+    }
+    .admin_login > button{
+        left:100px;
+    }
+
+   
+   }
+
+
+
+
+
+
+@media(max-width:620px){
+
+    .location {
+        left:20%;
+        top:40%;
+    }
+    .admin_login > button{
+        left:20px;
+    }
+   
+   }
+
+   /* @media(max-width:800px){
+
+    .location > input {
+       width: 350px;
+    }
+
+   
+   } */

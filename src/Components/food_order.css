@@ -1,0 +1,45 @@
+.food_order {
+  width: 650px;
+  height: 380px;
+  padding: 110px;
+  background-color: rgb(78, 169, 78);
+  margin-left: 20px;
+
+
+}
+
+.food_order > #food {
+
+   width: 500px;
+   height: 35px;
+
+}
+.food_order > #submit {
+
+   width: 110px;
+   height: 35px;
+   margin-left: 42px;
+
+}
+.food_order > #submit:hover {
+   cursor: pointer;
+    
+
+}
+
+
+
+@media(max-width:800px)  {
+
+
+   .food_order {
+
+      width: 525px;
+      margin-left: 0px;
+
+   }
+   .food_order > #food {
+       width: 315px;
+
+   }
+}

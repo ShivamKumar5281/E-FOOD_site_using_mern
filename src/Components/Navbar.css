@@ -1,0 +1,133 @@
+
+.main_nav {
+    margin: 0;
+    /* background-color: rgb(210, 72, 210); */
+    background-color: #616161;
+    height: 80px;
+    width: 100vw;
+}
+.main_nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    margin-right: 8px;
+    margin-top: 15px;
+
+}
+.main_nav > ul > li > a{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(235, 225, 225);
+    padding: 4px;
+    border-radius: 5px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+}
+.main_nav > ul {
+    position: absolute;
+    left: 1000px;
+    
+    
+
+}
+.main_nav > ul > li > a:hover {
+    background-color: black;
+    color:white;
+    
+}
+
+.div {
+
+    width:400px;
+    height: 500px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 1px 10px rgb(63, 48, 48) inset;
+}
+.main_nav> .logo {
+    position:absolute;
+    width: 150px;
+    height: 100px;
+    background-image: url(logo.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    left: 10px;
+}
+.main_nav > .account{
+    position:absolute;
+    width: 180px;
+    height: 80px;
+    border: 5px solid white;
+    border-radius: 80px;
+    font-size: 23px;
+    left: 10px;
+    padding: 10px;
+    color: white;
+
+}
+.main_nav > .nav-text {
+    position: absolute;
+    left:110px;
+    top:15px;
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+
+.main_nav > ul > li > button {
+    width: 80px;
+    height: 35px;
+    border:0.1px solid black;
+    border-radius: 10px;
+    color: rgb(58, 49, 49);
+
+
+}
+.main_nav > ul > li > button:hover {
+    background-color: black;
+    color:orange;
+    cursor: pointer;
+}
+
+
+@media(max-width:1000px){
+   .main_nav > ul{
+    left:300px;
+   }
+   .main_nav{
+    height: 125px;
+   }
+
+
+}
+
+@media(max-width:1500px){
+    .main_nav > ul{
+     left:500px;
+    }
+
+ 
+ }
+
+ @media(max-width:800px){
+  .main_nav > ul {
+    left: 280px;
+
+  }
+
+
+ }
+ @media(max-width:620px){
+    .main_nav > ul > li {
+        display: block;
+
+
+    }
+    .main_nav {
+        height: 200px;
+    }
+    .main_nav > ul {
+        margin-left: 53px;
+    }
+ }
